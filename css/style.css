@@ -1,0 +1,153 @@
+body{
+  font-family: 'Luckiest Guy', cursive;
+  margin-left:10%;
+  margin-top:5%;
+  background:url("http://www.misucell.com/data/out/12/IMG_544236.png");
+  background-position:center;
+  
+  /*text border extracted from 
+    https://stackoverflow.com/a/8712442/9064592.
+  */
+  text-shadow: 1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000,
+    0px 1px 0 #000,
+    0px -1px 0 #000,
+    -1px 0px 0 #000,
+    1px 0px 0 #000,
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    2px -2px 0 #000,
+    -2px -2px 0 #000,
+    0px 2px 0 #000,
+    0px -2px 0 #000,
+    -2px 0px 0 #000,
+    2px 0px 0 #000,
+    1px 2px 0 #000,
+    -1px 2px 0 #000,
+    1px -2px 0 #000,
+    -1px -2px 0 #000,
+    2px 1px 0 #000,
+    -2px 1px 0 #000,
+    2px -1px 0 #000,
+    -2px -1px 0 #000;
+}
+
+h1{
+  font-size:56px;
+  text-align:center;
+  margin-bottom:15px;
+}
+
+img{
+  width:150px;
+  height:auto;
+  filter:grayscale(80%);
+  cursor:pointer;
+}
+
+#green{
+  width:145px;
+}
+
+#main-container{
+  background: url("https://tilburyhouse.com/wp-content/uploads/2015/06/childrens-books-bg-mario.jpg");
+  background-position:center;
+  width:50%;
+  float:left;
+  position:absolute;
+  display:inline-block;
+  border:2px solid blue;
+  border-radius:15px;
+  height:500px;
+  padding-left:100px;
+  padding-right:100px;
+  color:#af2b00;
+}
+
+#mushroom-container{
+  text-align:center;
+  background-color:white;
+  margin:20px;
+  border:2px solid black;
+  border-radius:15px;
+}
+
+a{
+  font-size:30px;
+  margin:30px;
+}
+
+.game-mode{
+  cursor:pointer;
+  border-radius:15px;
+  border:5px dotted white;
+}
+
+#easy{
+  color:#a3ce3d;
+}
+
+#easy:hover{
+  color:#dfff91;
+}
+
+#strict{
+  color:#d87141;
+  margin-bottom:0px;
+}
+#strict:hover{
+  color:#ffcd91;
+}
+
+
+button{
+  width:100px;
+  height:50px;
+  border-radius:50%;
+  outline:none;
+  cursor:pointer;
+  margin:20px;
+  margin-top:30px;
+  font-size:20px;
+  font-family:inherit;
+  display:inline-block;
+  float:left;
+  outline:none;
+  background-color:white;
+}
+
+button:hover{
+  background-color:lightgrey;
+}
+
+button:focus{
+  outline:none;
+}
+
+#game-options{
+  width:35%;
+  display:inline-block;
+  background: url("https://lvlt.thesims3.com/sims3_asset/sims3_asset/thumb/shard000/000/026/445/94/original.jpg");
+  height:500px;
+  border:2px solid red;
+  border-radius:15px;
+  color:#3f80ea;
+  
+}
+
+#options-container{
+  background-color:white;
+  text-align:center;
+  padding:50px;
+  height:250px;
+  margin:20px;
+  padding-top:20px;
+  border: 2px solid black;
+  border-radius:15px;
+}
+
+.navbar{
+  color:white;
+}
